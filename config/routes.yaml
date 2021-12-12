@@ -1,0 +1,6 @@
+index:
+   path: /
+   controller: App\Controller\IndexController::index
+projet:   
+   path: /{name}
+   controller: App\Controller\IndexController::projet
